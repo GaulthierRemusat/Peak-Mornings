@@ -1,0 +1,96 @@
+.tia-flex {
+    display: flex;
+    flex-grow:1;
+    justify-content: center;
+}
+
+.tia-first-half {
+    display:flex ;
+    flex-grow:1;
+    width:1200px;
+}
+
+.tia-card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    width: 700px;
+    height: 393.75px;
+    margin: 20px;
+}
+
+#tia-card-1 {
+    background-image: linear-gradient(60deg, rgba(0,0,0,1) 10%,rgba(0,0,0,0) 80%), url(../../images/tente.avif) !important;
+}
+
+#tia-card-2 {
+    background-image: linear-gradient(60deg, rgba(0,0,0,1) 10%,rgba(0,0,0,0) 80%), url(../../images/rando.jpg) !important;
+}
+
+
+#tia-card-3 {
+    background-image: linear-gradient(60deg, rgba(0,0,0,1) 10%,rgba(0,0,0,0) 80%), url(../../images/rando\ dos.jpg) !important;
+    flex-grow: 1;
+    
+}
+
+.tia-card-title {
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.tia-card-description {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    width:256px;
+}
+
+.tia-card-button {
+    background-color: #398676;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.tia-card-button:hover {
+   opacity:60%;
+}
+
+.tia-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 20px;
+    align-content: center;
+}
+
+#tia-range {
+    background-image: url(images/range.jpg);
+}
+
+#tia-rent {
+    background-image: url(images/rent.jpg);
+}
+
+#tia-hike{
+    background-image: url(images/plan.jpg);
+    width: 1540px;
+}
+
+.title-divider h2 {
+    align-items: center;
+
+}

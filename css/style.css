@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Calligraffitti&family=Raleway&family=Roboto:wght@300;400&family=Vollkorn&display=swap');
+
+@import url(components/container.css);
+@import url(components/avatar.css);
+@import url(components/banner.css);
+@import url(components/button.css);
+@import url(components/navbar.css);
+@import url(components/list.css);
+@import url(components/footer.css);
+@import url(components/form.css);
+@import url(components/botton.css);
+@import url(components/card.css);
+@import url(components/tias-cards.css);
+@import url(components/title-divider.css);
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background: rgba(161, 193, 129, 0.30) !important ;
+}
+
+h1, h2, h3 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+body a {
+    text-decoration: none;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+}
+
+
+.title-divider h2 {
+    text-align: center;
+
+}

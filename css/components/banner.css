@@ -1,0 +1,26 @@
+.banner {
+    background-image: linear-gradient(60deg, rgba(0,0,0,1) 10%,rgba(0,0,0,0) 80%), url(../../images/montagnes_de_bz.jpeg);
+    padding: 80px;
+    background-size: cover;
+    background-position: center ;
+    display: flex;
+}
+
+
+#in-banner p, h1, h2 {
+    color: #ffffff;
+    align-items: center;
+    
+}
+
+#in-banner h1 {
+    font-size:350%;
+    margin:0px;
+
+}
+
+#in-banner h2 {
+    font-size:300%;
+    margin-top: 0px;
+
+}

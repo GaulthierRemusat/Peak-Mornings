@@ -1,0 +1,12 @@
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    border:2px solid #233D4D;
+    margin: 5px;
+    margin-right:20px;
+    transition:0.1s;
+}
+
+.avatar:hover {
+    transform:scale(90%);
+}

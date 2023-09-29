@@ -1,0 +1,96 @@
+.flexbox-form {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:400;
+    margin-bottom:40px;
+
+
+}
+
+#form-left {
+    display:flex;
+    background-image:linear-gradient(60deg, rgba(0,0,0,1) 10%,rgba(0,0,0,0) 80%), url(../../images/fond-form.jpg);
+    background-size: cover;
+    background-position: center ;
+    width:600px;
+    height:475px;
+    padding:20px;
+
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+#form-right {
+    display:flex;
+    background: white;
+    width:600px;
+    height:475px;
+    padding:20px;
+    font-weight: 400;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.form-title {
+    padding: 0;
+    margin-left: 63px;
+}
+
+
+#h3-in-picture {
+    margin-top: -40px;
+    color: white;
+    font-size: 374%;
+    margin-left: -258px;
+}
+
+
+#h2-in-picture {
+    color: white;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+#field {
+    background: #e8e8e8;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    width:420px;
+}
+
+.inner-form {
+    display: flex;
+    flex-direction: column;
+    height:475px;
+    margin-left:81px;
+}
+
+
+.checkbox-group {
+    display: flex;
+    height:30px;
+    flex-wrap:wrap;
+}
+
+.checkboxes-flex {
+    display:flex;
+    flex-direction: column;
+}
+
+#checkbox-label {
+    margin-left:10px;
+}
+
+#btn-form {
+    margin: 35px 0px 15px 155px;
+    width: fit-content;
+}

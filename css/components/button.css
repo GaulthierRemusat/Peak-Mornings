@@ -1,0 +1,44 @@
+
+.btn-primary {
+    padding: 10px;
+    background-color: #398676;
+    border-radius: 5px;
+    color: white;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.btn-primary:hover {
+    opacity: 60%;
+} 
+
+/*
+.btn-primary {
+    background-color: #398676;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width:fit-content;
+    padding: 10px;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    font-weight: 500;
+    color: #ffffff;
+    transform: scale(140%);
+}
+
+
+
+.btn-primary:hover {
+    transform:scale(150%);
+    opacity: 100%;
+    background-color: #ffffff;
+    color: #398676 !important;
+}
+
+.btn-primary:active {
+    transform:scale(100%);
+    color:#A1C181;
+}
+
+*/

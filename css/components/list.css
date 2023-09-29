@@ -1,0 +1,22 @@
+.list-inline li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 100px;
+}
+
+.list-inline {
+    list-style-type: none;
+    display: inline;
+    position: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom:10px;
+    height:100px;
+    
+}
